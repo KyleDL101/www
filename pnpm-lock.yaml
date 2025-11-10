@@ -24,7 +24,7 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.6.2)(typescript@5.9.2)
       '@astrojs/cloudflare':
         specifier: 12.6.6
-        version: 12.6.6(@types/node@22.16.3)(astro@5.15.2(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0))(jiti@2.4.2)(yaml@2.8.0)
+        version: 12.6.6(@types/node@22.16.3)(astro@5.15.4(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0))(jiti@2.4.2)(yaml@2.8.0)
       '@astrojs/react':
         specifier: 4.3.0
         version: 4.3.0(@types/node@22.16.3)(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(jiti@2.4.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(yaml@2.8.0)
@@ -36,7 +36,7 @@ importers:
         version: 3.3.1
       '@astrojs/tailwind':
         specifier: 6.0.2
-        version: 6.0.2(astro@5.15.2(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0))(tailwindcss@3.4.15)
+        version: 6.0.2(astro@5.15.4(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0))(tailwindcss@3.4.15)
       '@fontsource/bricolage-grotesque':
         specifier: 5.2.8
         version: 5.2.8
@@ -59,11 +59,11 @@ importers:
         specifier: 4.0.2
         version: 4.0.2
       astro:
-        specifier: '>=5.12.8'
-        version: 5.15.2(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0)
+        specifier: 5.15.4
+        version: 5.15.4(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0)
       astro-navbar:
-        specifier: 2.3.7
-        version: 2.3.7
+        specifier: 2.4.0
+        version: 2.4.0
       autoprefixer:
         specifier: 10.4.14
         version: 10.4.14(postcss@8.5.1)
@@ -2354,11 +2354,11 @@ packages:
     resolution: {integrity: sha512-JepyLROIad6f44uyqMF6HKE2QbunNzp3mYKRcPoDGt0QkxXmH222FAFC64WTyQu2Kg8NNEXHTN/sWuUId9sSxw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro-navbar@2.3.7:
-    resolution: {integrity: sha512-3rB27AkbTQVZCyrNc0C+8EK558eF9U/Ldmwnfl3w4lZ2zZCjUCiCqhoEAqkBEupiVsZux89/AkNUpBkufQQ5jA==}
+  astro-navbar@2.4.0:
+    resolution: {integrity: sha512-UhQnU8lz3a0NKL5gTBXFwYg1CVzP/DNlw1z6qW7f9Q1j33oMHdjwX/TmC2/xkJTKeq4a2RxgaqeJ+6CxCxRELg==}
 
-  astro@5.15.2:
-    resolution: {integrity: sha512-xQQ+PiYJ7WpUJrHJpAb52TQAUCFmSR8lAtQr3tFfSIZoTQiEMFx3HITJ01t3eDUpHjja8J6JcYqgAhr9xygKQg==}
+  astro@5.15.4:
+    resolution: {integrity: sha512-0g/68hLHEJZF2nYUcZM5O0kOnzCsCIf8eA9+0jfBAxp4ycujrIHRgIOdZCFKL9GoTsn8AypWbziypH5aEIF+aA==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -4102,9 +4102,6 @@ packages:
   nlcst-to-string@4.0.0:
     resolution: {integrity: sha512-YKLBCcUYKAg0FNlOBT6aI91qFmSiFKiluk655WzPF+DDMA02qIyy8uiRqI8QXtcFpEvll12LpL5MXqEmAZ+dcA==}
 
-  node-fetch-native@1.6.6:
-    resolution: {integrity: sha512-8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==}
-
   node-fetch-native@1.6.7:
     resolution: {integrity: sha512-g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==}
 
@@ -5708,12 +5705,12 @@ snapshots:
       - prettier
       - prettier-plugin-astro
 
-  '@astrojs/cloudflare@12.6.6(@types/node@22.16.3)(astro@5.15.2(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0))(jiti@2.4.2)(yaml@2.8.0)':
+  '@astrojs/cloudflare@12.6.6(@types/node@22.16.3)(astro@5.15.4(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0))(jiti@2.4.2)(yaml@2.8.0)':
     dependencies:
       '@astrojs/internal-helpers': 0.7.2
       '@astrojs/underscore-redirects': 1.0.0
       '@cloudflare/workers-types': 4.20250906.0
-      astro: 5.15.2(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0)
+      astro: 5.15.4(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0)
       tinyglobby: 0.2.15
       vite: 7.1.12(@types/node@22.16.3)(jiti@2.4.2)(yaml@2.8.0)
       wrangler: 4.14.1(@cloudflare/workers-types@4.20250906.0)
@@ -5830,9 +5827,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.25.46
 
-  '@astrojs/tailwind@6.0.2(astro@5.15.2(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0))(tailwindcss@3.4.15)':
+  '@astrojs/tailwind@6.0.2(astro@5.15.4(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0))(tailwindcss@3.4.15)':
     dependencies:
-      astro: 5.15.2(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0)
+      astro: 5.15.4(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0)
       autoprefixer: 10.4.21(postcss@8.5.4)
       postcss: 8.5.4
       postcss-load-config: 4.0.2(postcss@8.5.4)
@@ -6926,7 +6923,7 @@ snapshots:
   '@jridgewell/trace-mapping@0.3.9':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.5.5
 
   '@napi-rs/wasm-runtime@0.2.11':
     dependencies:
@@ -7689,9 +7686,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro-navbar@2.3.7: {}
+  astro-navbar@2.4.0: {}
 
-  astro@5.15.2(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0):
+  astro@5.15.4(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.4
@@ -8874,7 +8871,7 @@ snapshots:
   free-astro-components@1.2.0(@types/node@22.16.3)(jiti@2.4.2)(prettier-plugin-astro@0.14.1)(prettier@3.6.2)(rollup@4.50.1)(yaml@2.8.0):
     dependencies:
       '@astrojs/check': 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.6.2)(typescript@5.9.2)
-      astro: 5.15.2(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0)
+      astro: 5.15.4(@types/node@22.16.3)(jiti@2.4.2)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.0)
       typescript: 5.9.2
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -10013,8 +10010,6 @@ snapshots:
     dependencies:
       '@types/nlcst': 2.0.3
 
-  node-fetch-native@1.6.6: {}
-
   node-fetch-native@1.6.7: {}
 
   node-fetch@2.7.0:
@@ -10078,7 +10073,7 @@ snapshots:
   ofetch@1.4.1:
     dependencies:
       destr: 2.0.5
-      node-fetch-native: 1.6.6
+      node-fetch-native: 1.6.7
       ufo: 1.6.1
 
   ohash@2.0.11: {}
